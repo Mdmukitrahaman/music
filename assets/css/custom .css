@@ -1,0 +1,142 @@
+body{
+  background: #17181A;
+}
+.navbar-nav .nav-link{
+  font-size: 15px;
+  font-weight: 600;
+  color: azure;
+  margin: 0px 15px;
+  &.active{
+    color: red;
+  }
+  &:hover{
+    color: red;
+  }
+
+}
+#navbar h2{
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  transition: .2s ease-in;
+  &:hover{
+    border-bottom: 1px solid red;
+  }
+}
+form a{
+  color: #fff;
+  padding: 0px 10px;
+  font-size: 25px;
+  transition: .2s ease-in;
+
+  &:hover{
+    color: red;
+  }
+}
+#about p{
+  color: #fff;
+  padding: 30px 0px;
+  margin: 0px 20px;
+}
+#tem{
+  /* background: #000; */
+}
+#tem img{
+  box-sizing: border-box;
+  border: 1px solid black;
+  box-shadow: 20px 10px 25px 22px;
+  
+}
+#tem h2{
+  color: #fff;
+}
+#tem h6{
+  color: #fff;
+}
+#tem p{
+  color: #fff;
+}
+#big-footer{
+  /* background: #000; */
+  color: #fff;
+}
+.contant{
+  color: #fff;
+  background: #000;
+}
+span{
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  transition: .2s inherit;
+  &:hover{
+    border-bottom:1px solid red;
+  }
+}
+.footer-door{
+  color: #fff;
+}
+
+.footer-icon a{
+  color: #fff;
+  margin: 0px 10px;
+}
+#About-header{
+  background: #000;
+}
+.about-photo{
+  color: #fff;
+}
+#header2{
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(../img/header2.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 60vh;
+}
+#header2 h1{
+  color: #fff;
+}
+#header2 h5{
+  color: #fff;
+}
+.poster{
+  overflow: hidden; 
+}
+.poster img{
+  cursor: pointer;
+  transition: .2s ease-in;
+}
+.poster img:hover{
+  transform: scale(1.2);
+}
+#main h1{
+  color: #fff;
+}
+#main h2{
+  color: #fff;
+}
+#main h4{
+  color: #fff;
+}
+#main p{
+  color: #fff;
+}
+.poster-tag{
+  background-color: #000;
+  color: #fff;
+}
+.big-topic h2{
+  color: #fff;
+}
+.big-topic h5{
+  color: #fff;
+}
+.big-topic ul{
+  color: #fff;
+}
+.big-topic button{
+  color: #fff;
+}
+#contact h2{
+  color: #fff;
+}
+#contact h5{
+  color: #fff;
+}
